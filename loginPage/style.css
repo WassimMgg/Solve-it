@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+    opacity: 90%;
+  }
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+    font-weight: bold;
+}
+ .logo{
+    height: 200px;
+    width: 300px;
+ }
+.row{
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    
+
+input.userword{
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-bottom: black solid 1px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.Signup{
+    color: #3fa9f5;
+}
+
+.New{
+    padding-bottom: 20px;
+}
+.col{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 18px;
+}
