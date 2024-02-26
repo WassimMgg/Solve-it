@@ -1,22 +1,34 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-  }
+}
 
-body{
+body {
     margin: 0;
     padding: 0;
+    height: 100%;
     background: linear-gradient(120deg,#2980b9, #8e44ad);
-    opacity: 90%;
+    background-size: 100% 200%;
+    animation: gradient-animation 18s ease infinite;
+    width: auto;
   }
 
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
-
-.log{
+.Sigh{
     text-align: center;
     padding: 20px 0;
     border-bottom: 1px solid silver;
@@ -24,15 +36,14 @@ body{
 }
  .logo{
     height: 75px;
-    width: 150px;
- }
-.rowrow{
-    height: 90%;
-    width: 500px;
-    border-radius: 20px;
+    width: 300px;
 }
 
-
+.rowrow{
+    height: 90%;
+    width: 600px;
+    border-radius: 20px;
+}
 
 input.userword{
     font-size: 18px;
@@ -53,7 +64,8 @@ input.userword{
     padding-bottom: 30px;
     padding-top: 12px;
 }
-.col{
+
+.colcol{
     background-color: white;
     border-radius: 15px;
 }
@@ -70,5 +82,5 @@ input.userword{
 .navbtn{
     margin-left:50px ;
     margin-right:50px ;
-    width:97px; 
+    width: 98px;
 }
