@@ -5,13 +5,13 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    color: black;
   }
 
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg,#2980b9, #8e44ad);
-    opacity: 90%;
+
   }
 
 
