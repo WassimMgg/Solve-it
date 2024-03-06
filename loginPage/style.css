@@ -11,9 +11,23 @@
 body{
     margin: 0;
     padding: 0;
-
   }
 
+  .navbar-logo{
+    background: linear-gradient(135deg , rgba(255,255,255,0.1),  rgba(255,255,255,0));
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    padding: 10px;
+    margin:0px; 
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18) ;
+    box-shadow: 0px 8px 32px 0 rgba(0,0,0,0.37);
+  }
+.clubLogo{
+    width: 90px ;
+    height: 50px;
+}
 
 
 .log{
@@ -22,17 +36,12 @@ body{
     border-bottom: 1px solid silver;
     font-weight: bold;
 }
- .logo{
-    height: 75px;
-    width: 150px;
- }
+
 .rowrow{
     height: 90%;
     width: 500px;
     border-radius: 20px;
 }
-
-
 
 input.userword{
     font-size: 18px;
